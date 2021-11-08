@@ -7,6 +7,14 @@ public class AulaVirtualBackEndUnidad2 {
 
     public static void main(String[] args) {
 
+	/**
+	 * Crear un programa en java en el cual se pida al usuario ingresar su
+	 * nombre, apellido, edad, hobbie, editor de código preferido, sistema
+	 * operativo que utiliza, luego deberá mostrarse por consola los datos
+	 * ingresados. El programa deber ser subido a un repositorio de GitHub,
+	 * pegar el link del ejercicio resuelto en el siguiente recuadro
+	 */
+	
 	HashMap<String, String> datos2 = new HashMap<>();
 	datos2.put("nombre", JOptionPane.showInputDialog("Ingrese su nombre"));
 	datos2.put("apellido", JOptionPane.showInputDialog("Ingrese su apellido"));
@@ -20,5 +28,5 @@ public class AulaVirtualBackEndUnidad2 {
 	});
 
     }
-    
+
 }
